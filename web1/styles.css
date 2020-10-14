@@ -1,0 +1,491 @@
+
+body {margin: 0;
+background-color: black;
+overflow: auto;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+ul.topnav li {
+    float: right;
+}
+
+ul.topnav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 16px 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.a2{
+    margin-right: 10vw;
+}
+ul.topnav li a:hover{
+    color: red;
+}
+ul.topnav li.left {
+    display: block;
+    float: left;
+    margin-left: 8vw;
+}
+@media screen and (max-width: 900px){
+    ul.topnav li a{font-size: 10px;}
+    ul.topnav li.left{margin-left: 0%; width:20%;}
+}
+@media screen and (max-width: 650px){
+    ul.topnav li a{font-size: 10px;}
+    ul.topnav li.left{display: none;}
+}
+div.d1 {
+    background-image: url(action-3195378_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 45vw;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.p1 {
+    padding-top: 10%;
+    padding-left: 12vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 130%;
+    color: white;
+    max-width: 40%;
+}
+.p2 {
+    padding-left: 12vw;
+    font-family: fantasy;
+    font-size: 350%;
+    color: white;
+    text-transform: uppercase;
+    max-width: max-content;
+}
+
+.a3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: white;
+    color: black;
+    margin-left: 12vw;
+    max-width: 10vw;
+    background-color: white;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    text-align: center;
+}
+.a3:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: rgb(0, 0, 70);
+    color: wheat;
+    margin-left: 12vw;
+    background-color: rgb(0, 0, 70);
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    max-width: 10vw;
+    text-align: center;
+}
+@media screen and (max-width: 1000px){
+    .p1{font-size: 60%;}
+    .p2{font-size: 165%;}
+    .a3{font-size: 8px;}
+    .a3:hover{font-size: 8px; }
+}
+div.d2{
+    background-image: url(adult-1867608_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 45vw;
+    margin-top: 0;
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h2{
+    position: absolute;
+    padding-top: 2vw;
+    padding-left: 45%;
+    padding-bottom: 0vw;
+    margin-bottom: 0vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: black; 
+    text-transform: uppercase;
+}
+.p3{
+    padding-top: 8vw;
+    padding-left: 12vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(187, 1, 1);
+    margin-right: 55%;
+}
+.p4{
+    padding-left: 12vw;
+    font-size: 120%;
+    color: white;
+    margin-right: 60%;
+}
+
+.i1{
+    padding-left: 60vw;
+    max-width: 30%;
+    height: auto;
+    position: absolute;
+    padding-top: 13vw;
+}
+@media screen and (max-width: 1200px){
+    .p3{font-size: 15px;}
+    .p4{font-size: 90%;}
+}
+@media screen and (max-width: 900px){
+    .p3{font-size: 15px; padding-top: 11vw;}
+    .p4{font-size: 60%;}
+}
+@media screen and (max-width: 600px){
+    .p3{font-size: 15px; padding-top: 9vw;}
+    .p4{font-size: 40%; }
+    h2{font-size: 20px;}
+    .i1{padding-top: 20vw;}
+}
+
+.d3{
+    background-image: url(northern-lights-1081752_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 45vw;
+    min-height: max-content;
+    margin-top: 0;
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+}
+.p5{
+    padding-top: 10%;
+    padding-left: 12vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    color: white;
+    max-width: 30vw;
+}
+.p6{
+    padding-left: 12vw;
+    max-width: 65vw;
+    font-size: 300%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white; 
+    overflow: auto;
+}
+@media screen and (max-width: 1000px){
+    .p5{font-size: 100%;}
+    .p6{font-size: 170%; }    
+}
+@media screen and (max-width: 700px){
+    .p5{font-size: 80%;}
+    .p6{font-size: 100%; }    
+}
+.d4{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.p7{
+    font-size: 180%;
+    color: black;
+    max-width: 70%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 15%;
+    text-align: center;
+    word-spacing: 3px;
+    padding-top: 4%;
+}
+.p8{
+    color: navy;
+    max-width: 68%;
+    padding-left: 16%;
+    text-transform: uppercase;
+    font-size: 210%;
+    text-align: center;
+
+}
+@media screen and (max-width: 700px){
+    .p7{font-size: 80%;}
+    .p8{font-size: 100%;}    
+}
+.d5{
+    display: -webkit-flex;
+    display: flex;
+    background-color: white;
+    color: black;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 2px;
+}
+.stlpec{
+    -webkit-box-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+    padding-right: 5%;
+    padding-left: 10%;
+}
+.stlpec1{
+    -webkit-box-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+    padding-right: 10%;
+    padding-left: 5%;
+}
+.p9{
+    font-size: 200%;
+    color: navy;
+}
+.i2{
+    max-width: 80%;
+    padding: 10%;
+}
+@media screen and (max-width: 700px){
+    .d5{font-size: 50%;}
+    .p9{font-size: 80%; }    
+}
+.d6{
+    background-image: url(northern-lights-1081752_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 45vw;
+    min-height: max-content;
+    margin-top: 0;
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+}
+.p10{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 270%;
+    padding-top: 5%;
+}
+.p11{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: lowercase;
+    text-align: center;
+    font-size: 110%;
+}
+.p12{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 280%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.p13{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 130%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+@media screen and (max-width: 1200px){
+    .p10{font-size: 130%;}
+    .p11{font-size: 60%;}
+    .p12{font-size: 130%;}
+    .p13{font-size: 60%;}
+  
+}
+@media screen and (max-width: 600px){
+    .p10{font-size: 100%;}
+    .p11{font-size: 50%;}
+    .p12{font-size: 100%;}
+    .p13{font-size: 40%;}
+    
+
+}
+.pe1{
+    -webkit-box-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+    padding-right: 18%;
+    padding-left: 10%;
+}
+.pe2{
+    -webkit-box-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+    padding-right: 10%;
+    padding-left: 18%;
+}
+.d7{
+    display: -webkit-flex;
+    display: flex;
+    background-color: white;
+    color: black;
+    height: 8%;
+    font-size: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;}
+.a4{
+    color: rgb(228, 74, 74);
+    text-decoration: none;
+}
+.a4:hover{
+    color: navy;
+}
+@media screen and (max-width: 600px){
+    .d7{font-size: 50%;}
+}
+
+.d8{
+    background-image: url(star-clusters-67616_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 45vw;
+    min-height: max-content;
+    margin-top: 0;
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+}
+.di1{
+    display: -webkit-flex;
+    display: flex;
+    background-color: white;
+    padding-bottom: 5%;
+  }
+.stlpec2{
+    -webkit-box-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+    
+}
+.stlpec2 img{
+    width: 20vw;
+    height: 15vw;
+    padding-left: 20%;
+}
+@media screen and (max-width: 700px){
+    .stlpec2 img{padding-left: 8%;}
+}
+.p14{
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: navy;
+    font-size: 200%;
+    margin: 0;
+}
+.ah5{
+    text-decoration: none;
+}
+.ah5 p :hover{
+    color: red;
+}
+.di2{
+    background-image: url(northern-lights-1081752_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 45vw;
+    margin-top: 0;
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+  }
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }  
+input[type=submit]:hover {
+    background-color: #45a049;
+  }
+.di3{
+    background-color: white;
+    padding: 5%;
+    display: flex;
+    margin: 0;
+}
+form{
+    float: right;
+}
+form label{
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+form input{
+    float: left;
+    width: 75%;
+    margin-top: 6px; 
+}
+
+
+@media screen and (max-width: 800px){
+    label{
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 600px){
+    form label, form input, input[type=submit]{
+        width: 100%;
+        margin-top: 0;
+    }
+}
+.di4{
+    display: flex;
+    background-color: white;
+    margin: 0;
+}
+.p15{
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: black;
+    font-size: 100%;
+    margin: 0;
+    float: left;
+}
